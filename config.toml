@@ -1,0 +1,66 @@
+# Site settings
+baseurl = "https://jraisanen.com/"
+themesDir = "themes"
+languageCode = "en-us"
+title = "Janne Räisänen | Web, Mobile & eCommerce Developer"
+theme = "hugo-cactus-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-101615622-1"
+# Disable comments by leaving disqusShortname empty
+disqusShortname = ""
+
+[[menu.main]]
+  name   = "Projects"
+  weight = 100
+  url    = "/projects/"
+[[menu.main]]
+  name   = "About"
+  weight = 200
+  url    = "/about/"
+
+[params]
+	name = "Janne Räisänen"
+	description = "Full Stack Developer. Creating eCommerce products for the Web, iOS and Android."
+	bio = "Web, Mobile & eCommerce Developer"
+	# Enter optionally your twitter account
+	twitter = "raisanenjanne"
+	email = "janne@jraisanen.com"
+
+  contactName = "Contact"
+  contactURL  = "/contact/"
+
+	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = "Home"
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = "© Copyright 2017 Janne Räisänen"
+	# Sharing options and author information in posts
+	aboutAuthor = "I'm an blogger."
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = ""
+
+# Add additional social link entries underneath
+[social]
+  envelope = "mailto:janne@jraisanen.com"
+  github   = "https://www.github.com/jraisanen"
+  twitter  = "https://www.twitter.com/raisanenjanne"
+  linkedin = "https://www.linkedin.com/in/raisanenjanne/"
